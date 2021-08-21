@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container {
+            height: 1000px;
+            width: 100%;
+            /* background-color: rgb(177, 179, 177); */
+            background-color: white;
+        }
+
+        .header-container {
+            height: 150px;
+            /* border: 1px solid #bcbcbc; */
+        }
+
+        .header-container ul {
+            list-style-type: none;
+            display: inline-flex;
+            float: right;
+            padding-top: 30px;
+            padding-right: 280px;
+    
+        }
+        .header-container ul li{
+            margin: 15px;
+            
+    
+        }
+        .header-container ul li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-family: "Open Sans", Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            font-weight:bold;
+            
+            
+        }
+        .header-container img{
+            padding-left: 10%;
+            padding-top: 25px;
+        }
+
+        .banner-container {
+            height: 500px;
+            border: 1px solid black;
+        }
+
+        .body-container {
+            height: 500px;
+            /* border: 1px solid #bcbcbc; */
+
+        }
+
+        .body-container .title-container {
+            height: 270px;
+            /* border: 1px solid #bcbcbc; */
+            
+        }
+
+        .box-container-inner .box {
+            width: 350px;
+            height: 80px;
+            float: left;
+            /* background-color: brown; */
+            border: 1px solid #ccc;
+            margin-left: 70px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 2px #ccc;
+            border-radius: 4px;
+            
+        }
+
+        /* .banner-container {
+            height: 350px;
+
+        } */
+        .banner-container img{
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+        }
+        .banner-container .banner-desc{
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            font-size: 25px;
+        }
+        .banner-container .banner-desc h2{
+            text-align: center;
+            font-family: "Open Sans", Helvetica, Arial, sans-serif;
+            padding-right: 70px;
+
+        }
+        .banner-container .banner-desc input {
+            background-color: #fff;
+            height: 52px;
+            width: 310px;
+            padding: 0px 15px 0px 15px;
+            border: none;
+            margin-left: 12px;
+            box-shadow: 0px 20px 25px -12px ;
+            border: none;
+            box-shadow: none;
+            border-radius: 4px;
+            
+
+            
+        }
+        .banner-container .banner-desc button{
+            height: 50px;
+            width: 150px;
+            background-color: #72c02c;
+            border-radius: 4px;
+            margin: 15px;
+        }
+        .banner-container .banner-desc p{
+            text-align: center;
+            opacity: .8;
+            margin-top: 0px;
+            font-size: 20px;
+
+        }
+        .body-container .title-container h3 {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 50px;
+            font-family: inherit;
+            font-weight: 300 !important;
+            color: #111 !important;
+            
+
+            
+        }
+        .body-container .title-container p {
+            text-align: center;
+            font-size: 20px;
+            font-family: "Open Sans", Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            color: #555;
+            margin-top: -32px;
+            
+        }
+        .box-container-inner .box img{
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .box-container-inner .box .box-inner{
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            
+            
+        }
+        .box-container-inner .box-inner a{
+            color: black;
+            display: block;
+            margin-bottom: -10px;
+            
+        }
+        input:focus-visible{
+            outline: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            
+            <nav>
+                <img src="images/logo.png">
+                <ul>
+                    <li>
+                        <a href="">Intro</a>
+                    </li>
+                    <li>
+                        <a href="">home</a>
+                    </li>
+                    <li>
+                        <a href="">page</a>
+                    </li>
+                    <li>
+                        <a href="">blog</a>
+                    </li>
+                    <li>
+                        <a href="">features</a>
+                    </li>
+                    <li>
+                        <a href="">shhortcodes</a>
+                    </li>
+                    <li>
+                        <a href="">demos</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="banner-container">
+            <img src="images/blog-post-1.jpg" alt="">
+            <div class="banner-desc">
+            <h2>DISCOVER YOUR DREAM JOB</h2>
+            <input type="text" placeholder="Job Title or Skills">
+            <input type="text" placeholder="City,Zip or Country">
+            <button>SEARCH</button>
+            <p>Search any type of work and much more..</p>
+            </div>
+
+        </div>
+        
+
+    <div class=" body-container">
+            <div class="title-container">
+                <h3>Popular Jobs</h3>
+                <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus<br> tellusimp imperdiet molestie.</p>
+            </div>
+            <div class="box-container">
+                <div class="box-container-inner">
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="junior UX Designer">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="junior UX Designer">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="junior UX Designer">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="junior UX Designer">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="junior UX Designer">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="junior UX Designer">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/boximg.png">
+                        <div class="box-inner">
+                            <a href="">junior UX Designer</a><br>
+                            <span>London,Uk</span>
+                            <span>Airbnb</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
